@@ -18,15 +18,14 @@ Today, we will be focusing on Molecular Dynamics (MD) Simulations of Alkanes usi
 
 ## Setup
 1. Clone this repo!
-2. Create a `conda` environment with the needed software using the `conda-env.yaml`.
+2. Create a `conda` environment with the needed software using the `conda-env.yaml`. This will install OpenMM and all the software you need for this lab in an environment called `mm-tools`.
 
 ```bash
 conda env create -f conda-env.yaml
+conda activate mm-tools
 ```
 
-3. Make sure you have Anaconda/Jupyter Notebook installed on your code editor!
-
-4. Read the first two sections of the [Introduction](https://education.molssi.org/mm-tools/01-introduction/index.html) to this activity from The Molecular Sciences Software Institute.
+3. Read the first two sections of the [Introduction](https://education.molssi.org/mm-tools/01-introduction/index.html) to this activity from The Molecular Sciences Software Institute.
 
 ---
 
