@@ -1,4 +1,4 @@
-name: mm-tools
+name: chem274A_lab2
 
 channels:
   - conda-forge
@@ -6,9 +6,8 @@ channels:
 
 dependencies:
   - openmm
-  - "ipywidgets<8"
-  - notebook
+  - jupyterlab
   - matplotlib
   - nglview
-  - mdtraj
+  - mdanalysis
   - statsmodels
